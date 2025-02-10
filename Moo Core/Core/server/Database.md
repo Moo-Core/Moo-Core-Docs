@@ -14,7 +14,7 @@ The db.lua file contains all of the database interactions done for player and ch
 # 📃Core.DB.GetPlayerData
 <hr>
 
-{% highlight LUA %}
+{% highlight %}
 
 --| :: Parameters:
 discord         - The attached discord ID for the player.
@@ -34,7 +34,7 @@ license         - The CFX/R* License key for the player.
 # 📃Core.DB.InsertPlayerdata
 <hr>
 
-{% highlight LUA %}
+{% highlight %}
 
 --| :: Parameters:
 name          - The player's name
@@ -56,7 +56,7 @@ tokens        - The tokens for the player to be available to use.
 # 📃Core.DB.CheckBans
 <hr>
 
-{% highlight LUA %}
+{% highlight %}
 
 --| :: Parameters:
 identifiers   - The identifiers for the player.
