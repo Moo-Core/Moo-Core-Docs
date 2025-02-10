@@ -17,12 +17,11 @@ The db.lua file contains all of the database interactions done for player and ch
 {% highlight LUA %}
 
 --| :: Parameters:
---| :: discord - The attached discord ID for the player.
---| :: steam - The attached steam ID for the player.
---| :: license - The CFX/R* License key for the player.
+discord - The attached discord ID for the player.
+steam - The attached steam ID for the player.
+license - The CFX/R* License key for the player.
 
---| :: Returns and object as the following:
-
+--| :: Returns the following:
 { 
   Success = < True/False >,
   Message = < A message to inform >,
