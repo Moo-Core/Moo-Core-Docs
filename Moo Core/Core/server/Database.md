@@ -17,9 +17,49 @@ The db.lua file contains all of the database interactions done for player and ch
 {% highlight LUA %}
 
 --| :: Parameters:
-discord - The attached discord ID for the player.
-steam - The attached steam ID for the player.
-license - The CFX/R* License key for the player.
+discord         - The attached discord ID for the player.
+steam           - The attached steam ID for the player.
+license         - The CFX/R* License key for the player.
+
+--| :: Returns the following:
+{ 
+  Success = < True/False >,
+  Message = < A message to inform >,
+  Data = < The data you are wanting to use/see >
+}
+
+{% endhighlight %}
+
+
+# 📃Core.DB.InsertPlayerdata
+<hr>
+
+{% highlight LUA %}
+
+--| :: Parameters:
+name          - The player's name
+discord       - The attached discord ID for the player.
+steam         - The attached steam ID for the player.
+license       - The CFX/R* License key for the player.
+tokens        - The tokens for the player to be available to use.
+
+--| :: Returns the following:
+{ 
+  Success = < True/False >,
+  Message = < A message to inform >,
+  Data = < The data you are wanting to use/see >
+}
+
+{% endhighlight %}
+
+
+# 📃Core.DB.CheckBans
+<hr>
+
+{% highlight LUA %}
+
+--| :: Parameters:
+identifiers   - The identifiers for the player.
 
 --| :: Returns the following:
 { 
